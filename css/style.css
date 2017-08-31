@@ -524,7 +524,8 @@ footer p {
 	display: block;
 	padding-left: 10px;
 	overflow: hidden;
-	margin-top: -4px;
+	margin-top: -9px;
+    	font-size: 1.5em;
 }
 
 .visuallyhidden {
