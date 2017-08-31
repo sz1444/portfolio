@@ -2,11 +2,6 @@
 	margin: 0 auto;
 }
 
-*:focus{	
-	border: 0px solid black;
-        outline-color: rgba(237, 205, 0, 1);	
-}
-
 body {
 	font-family: 'Raleway', sans-serif;
 	margin-top: 68px;
@@ -175,6 +170,11 @@ header .btn {
 header .btn:hover {
 	background-color: rgba(241, 218, 54, 1);
 	border-color: rgba(241, 218, 54, 1);
+}
+
+*:focus {
+	border: 0px solid black;
+	outline-color: rgba(237, 205, 0, 1);
 }
 
 #about ul {
@@ -385,7 +385,7 @@ header .btn:hover {
 	padding: 0;
 }
 
-.media-list li {
+.media-list .media-box {
 	padding: 0;
 	list-style: none;
 	display: inline-block;
@@ -395,15 +395,24 @@ header .btn:hover {
 	text-align: center;
 }
 
-.media-list li a {
+.media-list .media-box a {
 	color: #666;
 	display: inline-block;
 	width: 100%;
 	text-decoration: none;
 }
 
-.media-list li span {
+.media-list .media-box dt {
+	font-size: 1.6em;
+	font-weight: bold;
+	padding: 15px 0;
+	color: #000;
+}
+
+.media-list .media-box span {
 	background-color: #333;
+	margin: 15px auto;
+	display: block;
 	width: 50px;
 	height: 50px;
 	line-height: 50px;
@@ -414,7 +423,7 @@ header .btn:hover {
 	transition-duration: .3s;
 }
 
-.media-list li a:hover span {
+.media-list .media-box a:hover span {
 	background-color: rgba(237, 205, 0, 1);
 	border-color: rgba(237, 205, 0, 1);
 	box-shadow: 0 0 0;
@@ -487,30 +496,48 @@ footer p {
 	z-index: 1;
 }
 
-.fast-contakt-open ul {
+.fast-contakt-open dl {
 	padding: 0;
 }
 
-.fast-contakt-open ul li {
-	padding: 10px 10px;
+.fast-contakt-open .media-box {
+	padding: 0px 10px;
 	width: 100%;
 	display: block;
 	text-align: left;
+	;
 	font-size: 0.6em;
 }
 
-.fast-contakt-open li span {
+.fast-contakt-open .media-box span {
 	text-align: center;
+	margin: 0 auto;
 	width: 30px;
+	float: left;
 	height: 30px;
 	line-height: 30px;
 	font-size: 1.3em;
 	transition-duration: .3s;
 }
 
-.fast-contakt-open li p {
-	display: inline-block;
-	padding: 10px;
+.fast-contakt-open dd {
+	display: block;
+	padding-left: 10px;
+	overflow: hidden;
+	margin-top: -4px;
+}
+
+.visuallyhidden {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	white-space: nowrap;
+	/* 1 */
 }
 
 
