@@ -633,6 +633,11 @@ footer p {
 	#skills ul li:last-child {
 		border: 0;
 	}
+	
+	header{
+		max-height:100vh;
+		padding: 100px 0;
+	}
 }
 
 @media(max-width:1030px) {
