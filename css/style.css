@@ -615,7 +615,7 @@ footer p {
 	}
 }
 
-@media(max-width:730px) {
+@media(max-width:460px) {
 	#portfolio ul li {
 		width: 100%;
 		max-height: 600px;
