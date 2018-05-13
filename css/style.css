@@ -385,7 +385,7 @@ header a .fa {
 }
 
 #portfolio li img:hover {
-	transform: scale(2);
+	transform: scale(1.1);
 	opacity: 1;
 }
 
