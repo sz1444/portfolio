@@ -381,17 +381,15 @@ header a .fa {
 #portfolio li img {
 	width: 100%;
 	height: 100%;
-	transition-duration: 2s;
+	transition-duration: 0.3s;
 }
 
 #portfolio li img:hover {
-	transform: scale(1.1);
+	transform: scale(1.2);
 	opacity: 1;
 }
 
-#portfolio li .hover:hover img {
-	transform: scale(1.4);
-}
+
 
 #portfolio p {
 	text-align: center;
