@@ -100,7 +100,6 @@ nav li a {
 
 nav li a:hover {
 	background-color: rgba(237, 205, 0, 1);
-	color: #fff;
 	border-radius: 5px;
 }
 
