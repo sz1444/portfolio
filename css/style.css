@@ -179,7 +179,7 @@ header a {
 
 *:focus {
 	border: 0px solid black;
-	outline-color: #666;
+	outline-color: blue;
 }
 
 #about ul {
