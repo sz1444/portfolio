@@ -649,6 +649,7 @@ footer p {
 	#portfolio ul li {
 		width: 100%;
 		max-height: 600px;
+		margin-top:5px;
 	}
 }
 
