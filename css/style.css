@@ -169,6 +169,7 @@ header .btn {
 header .btn:hover {
 	background-color: rgba(241, 218, 54, 1);
 	border-color: rgba(241, 218, 54, 1);
+	color:#666;
 }
 
 header a {
@@ -178,7 +179,7 @@ header a {
 
 *:focus {
 	border: 0px solid black;
-	outline-color: rgba(237, 205, 0, 1);
+	outline-color: #666;
 }
 
 #about ul {
